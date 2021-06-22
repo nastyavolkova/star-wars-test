@@ -53,9 +53,10 @@ p {
 form {
     margin-bottom: 70px;
     width: 100%;
+    display: flex;
 }
 input {
-    width: 80%;
+    flex: 8;
     /* width: 540px; */
     height: 46px;
     border-radius: 10px;
@@ -118,6 +119,7 @@ button {
     input {
         width: 100%;
         margin-bottom: 20px; 
+        flex: none;
     }
     form {
         display: flex;
