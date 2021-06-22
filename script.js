@@ -23,8 +23,8 @@ button.addEventListener('click', () => {
     console.log(data);
     name.innerText = data.name;
     gender.innerText = data.gender;
-    weight.innerText = data.weight;
-    height.innerText = data.mass;
+    weight.innerText = data.mass;
+    height.innerText = data.height;
     eyes.style.backgroundColor = data.eye_color;
     
 
